@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;500&family=Shizuru&display=swap"
+        rel="stylesheet">
+    <style>
+        .parent {
+            height: 1000px;
+            width: 800px;
+            border: 1px solid;
+            background-image: linear-gradient(rgb(255, 94, 0) 0%, white 40% 50%, green);
+            /* background-image: url(./ind_flag.jpg); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+        }
+
+        .child {
+            height: 180px;
+            width: 150px;
+            border: 1px solid;
+            background-color: lightblue;
+            border-radius: 20px;
+            margin: 8px;
+        }
+
+        .superchildclass {
+            height: 80px;
+            width: 80px;
+            border: 1px solid;
+            border-radius: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 5px auto;
+            background-color: white;
+        }
+
+        #superchild1 {
+            background-image: url('https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg');
+            /* background-image: url(./Images/rohit.jpg); */
+        }
+
+        #superchild2 {
+            background-image: url('https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/322600/322697.png');
+            /* background-image: url(./Images/shubman_gill.jpg); */
+        }
+
+        #superchild3 {
+            background-image: url(./Images/virat_kohli.jpg);
+        }
+
+        #superchild4 {
+            background-image: url('https://1.bp.blogspot.com/-3YV8HOqiEMc/X8zQQCItjeI/AAAAAAAAk_E/OzCfTLbzCsYHwoZwNtCAMdSFSciET6d7gCLcBGAsYHQ/s1024/Shreyas.png');
+            /* background-image: url(./Images/iyer.jpg); */
+        }
+
+        #superchild5 {
+            background-image: url(./Images/kl.jpg);
+        }
+
+        #superchild6 {
+            background-image: url(./Images/sky.jpg);
+        }
+
+        #superchild7 {
+            background-image: url(./Images/jaddu1.jpg);
+        }
+
+        #superchild8 {
+            background-image: url('https://admin.thecricketer.com/weblab/Sites/96c8b790-b593-bfda-0ba4-ecd3a9fdefc2/resources/images/site/shamiheadshot-min.jpg');
+            /* background-image: url(./Images/shami.jpg); */
+        }
+
+        #superchild9 {
+            background-image: url(./Images/boom.jpg);
+        }
+
+        #superchild10 {
+            background-image: url(./Images/kuldeep.jpg);
+        }
+
+        #superchild11 {
+            background-image: url(./Images/siraj.png);
+        }
+
+        #superchild12 {
+            background-image: url(./Images/ishan.jpg);
+        }
+
+        #superchild13 {
+            background-image: url(./Images/shardul.png);
+        }
+
+        #superchild14 {
+            background-image: url(./Images/hardik.png);
+        }
+
+        #superchild15 {
+            background-image: url(./Images/axar.png);
+        }
+
+        p {
+            text-align: center;
+            line-height: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        details {
+            text-align: center;
+            line-height: 15px;
+            overflow-y: scroll;
+        }
+
+        .superparent {
+            height: 1000px;
+            width: 800px;
+            border: 1px solid;
+            /* background-color: yellow; */
+            display: flex;
+            margin: 40px auto;
+        }
+
+        .parent2 {
+            height: 1000px;
+            width: 400px;
+            border: 1px solid;
+            background-image: url(./Images/trophy1.jpg);
+            background-size: contain;
+            /* background-repeat: no-repeat; */
+        }
+
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+            /* font-family: 'Bebas Neue', sans-serif; */
+            background-image: linear-gradient(orange, white, green);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            line-height: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TEAM INDIA</h1>
+    <div class="superparent">
+        <div class="parent2"></div>
+        <div class="parent" id="parent1">
+            <div class="child" id="child1">
+                <div class="superchildclass" id="superchild1"></div>
+                <p>Rohit Sharma(Captain)</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a
+                        href="https://en.wikipedia.org/wiki/Rohit_Sharma#:~:text=2015%2C%202019%20and%202023%20Cricket%20World%20Cups,-Main%20articles%3A%202015&text=Sharma%20scored%20330%20runs%20in,the%20quarter%2Dfinal%20against%20Bangladesh.">Click
+                        Here</a>
+                </details>
+            </div>
+
+            <div class="child" id="child2">
+                <div class="superchildclass" id="superchild2"></div>
+                <p>Shubman Gill</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://en.wikipedia.org/wiki/Shubman_Gill">Click Here</a>
+                </details>
+            </div>
+
+            <div class="child" id="child3">
+                <div class="superchildclass" id="superchild3"></div>
+                <p>Virat Kohli</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/virat-kohli-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+
+            <div class="child" id="child4">
+                <div class="superchildclass" id="superchild4"></div>
+                <p>Shreyas Iyer</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/shreyas-iyer-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child5">
+                <div class="superchildclass" id="superchild5"></div>
+                <p>KL Rahul(WK)</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/kl-rahul-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child6">
+                <div class="superchildclass" id="superchild6"></div>
+                <p>Suryakumar Yadav</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/suryakumar-yadav-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child7">
+                <div class="superchildclass" id="superchild7"></div>
+                <p>Ravindra Jadeja</p>
+                <p>Role: All Rounder</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/ravindra-jadeja-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child8">
+                <div class="superchildclass" id="superchild8"></div>
+                <p>Mohammed Shami</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://en.wikipedia.org/wiki/Mohammed_Shami">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child9">
+                <div class="superchildclass" id="superchild9"></div>
+                <p>Jasprit Bumrah</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/jasprit-bumrah-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child10">
+                <div class="superchildclass" id="superchild10"></div>
+                <p>Kuldeep Yadav</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/kuldeep-yadav-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child11">
+                <div class="superchildclass" id="superchild11"></div>
+                <p>Mohammed Siraj</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/mohammed-siraj-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child12">
+                <div class="superchildclass" id="superchild12"></div>
+                <p>Ishan Kishan(e)</p>
+                <p>Role: Batsman</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/ishan-kishan-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child13">
+                <div class="superchildclass" id="superchild13"></div>
+                <p>Shardul Thakur(e)</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://icccworldcup.com/shardul-thakur-world-cup-stats/">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child14">
+                <div class="superchildclass" id="superchild14"></div>
+                <p>Hardik Pandya(VC)</p>
+                <p>Role: All Rounder</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://en.wikipedia.org/wiki/Hardik_Pandya">Click Here</a>
+                </details>
+            </div>
+            <div class="child" id="child15">
+                <div class="superchildclass" id="superchild15"></div>
+                <p>Axar Patel(e)</p>
+                <p>Role: Bowler</p>
+                <details>
+                    <summary>Details</summary>
+                    <a href="https://en.wikipedia.org/wiki/Axar_Patel">Click Here</a>
+                </details>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
